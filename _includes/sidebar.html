@@ -1,0 +1,45 @@
+<div class="widget-area">
+    <div class="widget">
+        <form action="#">
+            <input type="text" placeholder="Search For...">
+            <button class="fa fa-search"></button>
+        </form>
+    </div>
+    <div class="widget">
+        <div class="widget-title">
+            <h4>categories</h4>
+        </div>
+        <ul>
+            {% for category in site.categories %}
+              {% assign category_name = category[0] %}
+              <li>
+                <a class="text-capitalize" href="/category/{{ category_name | slugify }}/">{{ category_name | replace: "-", " " }} <span>({{ category[1].size }})</span></a>
+              </li>
+              {% endfor %}
+          </ul>
+    </div>
+    <div class="widget">
+        <div class="widget-title">
+            <h4>Latest News</h4>
+        </div>
+        {% for post in site.posts limit: 5 %}
+        <div class="single-recent-post">
+            <a href="{{post.url}}">
+                <div class="recent-img">
+                    <img src="{{post.image}}" alt="{{post.title}}">
+                </div>
+                <div class="recent-content">
+                    <p>{{post.title}}</p>
+                    <p><span class="fa fa-clock-o"></span> {{post.date | date_to_long_string}}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="widget tag">
+        <div class="widget-title">
+            <h4>Tag Clouds</h4>
+        </div>
+        {{site | tag_cloud}}
+    </div>
+</div>

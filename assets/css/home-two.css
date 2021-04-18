@@ -1,0 +1,147 @@
+.topbar-list div {
+    display: inline-block;
+}
+
+.topbar-list div:first-child {
+    margin-right: 30px;
+}
+.topbar-social a {
+    color: #ffb400;
+    margin-left: 10px;
+}
+.serviceimage-bg{
+    background: #f5f5f5;
+}
+
+
+/*start project section*/
+.single-project.project-second {
+    position: relative;
+}
+
+.single-project.project-second .project-desc {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 5, 49, .75);
+        color: #fff;
+    padding: 30px;
+    transition: .6s;
+    opacity: 0;
+}
+
+.single-project.project-second .project-desc a h4 {
+    color: #fff;
+}
+.single-project.project-second .project-desc a.read-more {
+    background: #ffa100;
+    font-size: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.single-project.project-second:hover .project-desc {
+    opacity: 1;
+}
+.project-desc-content {
+    text-align: left;
+}
+/*end of project section*/
+/*start dream section*/
+section.dream-quote.section-padding {
+    background: url(../img/whybg.jpg);
+    position: relative;
+}
+
+section.dream-quote.section-padding:before {
+    position: absolute;
+    width: 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 5, 49, .9);
+}
+
+.dream-quote-text {
+    color: #fff;
+}
+.dream-quote-text h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.dream-quote-text h2 {
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.dream-quote-text a.btn.btn-default.btn-sm {
+    background-color: #ffa100;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 0;
+    font-weight: 700
+}
+.dream-quote-text a.btn.btn-default.btn-sm:hover{
+    border: 0;
+    background: #fff;
+    color: #000531
+}
+/*end of dream section*/
+
+
+.counterbg{
+    background-image: url(../img/whybg.jpg);
+    background-position: center center;
+    position: relative;
+}
+.counterbg:before{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 5, 49, .9);
+    position: absolute;
+}
+.second-counter .content h4{
+    color: #fff;
+}
+.second-counter .content p{
+    color: #fff;
+}
+.second-counter .icon{
+    color: #ffa100 !important
+}
+.second-counter:hover .icon{
+    background-color: #ffa100 !important;
+    color: #fff !important;
+    border-color: #ffa100 !important
+}
+
+.footer-recent-post .single-recent-post .recent-content p{
+    color: #999
+}
+.single-image.man-second {
+    position: relative;
+    margin-top: -30px;
+}
+.beforenone:before{
+    display: none;
+}
+
+.widget.about-widget > a {
+    color: #ffa100;
+    text-transform: uppercase;
+    font-weight: 700;
+}

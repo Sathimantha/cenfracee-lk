@@ -1,0 +1,53 @@
+.single-blog.blog-three.second-blog {
+    margin-bottom: 30px;
+}
+
+section.blog-area.blogbg.blog-header.section-padding {
+    padding-bottom: 70px;
+}
+.single-project.project-three.project-second .project-desc {
+    opacity: 1;
+}
+
+
+.blog-thumb .date {
+    width: 60px;
+    background: #f2f2f2;
+    text-align: center;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 0
+}
+
+.blog-thumb .date span {
+    background-color: #ffa100;
+    display: block;
+    color: #fff;
+}
+.blog-thumb{
+    position: relative;
+}
+
+.blog-thumb .date h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #000531;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.dream-quote-text a.videopopup {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: #ffa100;
+    line-height: 50px;
+    border-radius: 50px;
+    color: #fff;
+    transition: .6s;
+    margin-top: 30px;
+}
+.dream-quote-text a.videopopup:hover{
+    background: #000531;
+    color: #ffa100
+}

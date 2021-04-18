@@ -1,0 +1,34 @@
+<!-- start recent work section -->
+<section class="recent-work section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h2>Recent Work</h2>
+                    <p>We Completed</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for work in site.works %}
+            <div class="col-md-4 col-lg-3">
+                <div class="single-project">
+                    <div class="project-thumb">
+                        <a href="{{work.url}}"><img src="{{work.image}}" alt="{{work.title}}"></a>
+                    </div>
+                    <div class="project-desc">
+                        <a href="{{work.url}}"><h4>{{work.title}}</h4></a>
+                        <p>{{work.desc | truncate: 70}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="col-md-12 text-center">
+                <div class="load-more-button">
+                    <a href="{{site.baseurl}}/pages/projects" class="btn btn-default button-primary">See All Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of recent work section -->

@@ -1,0 +1,187 @@
+/*start slider area*/
+
+.main-slider-item {
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main-slider-item:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 5, 49, .55);
+    content: "";
+    left: 0;
+    top: 0;
+}
+
+h2.main-title {
+    font-size: 54px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 64px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+h2.sub-title {
+    color: #e6e6e6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 26px;
+
+
+}
+
+.welcome-button a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 160px;
+    margin-right: 10px;
+    color: #000d33;
+    font-weight: 600;
+    height: 50px;
+    border-radius: 50px;
+}
+a.btn.btn-default.button-primary.btn-dark {
+    background: #000531;
+    color: #fff;
+    border-color: #000513;
+}
+.main-slider-welcome-text {
+    height: 650px;
+    display: table;
+    width: 100%;
+}
+
+.slider-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.welcome-button a span {
+    font-family: fontawesome
+}
+
+a.btn.btn-default.button-primary {
+    background: #000531;
+    border: 2px solid #000531;
+}
+
+a.button-secondary.btn.btn-default {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+a.button-secondary.btn.btn-default:hover {
+    background: #000531;
+    border: 2px solid #000531;
+    color: #fff
+}
+
+a.btn.btn-default.button-primary:hover {
+    background: #000531;
+    color: #fff;
+    border-color: #000531
+}
+
+
+
+.active-main-slider .owl-nav .owl-prev {
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -50px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: .4s;
+    background: transparent;
+    line-height: 100px;
+    font-size: 0;
+    background-image: url(../img/left.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.active-main-slider .owl-nav .owl-next {
+    width: 50px;
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -50px;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 00px;
+    color: #fff;
+    transition: .4s;
+    background: transparent;
+    font-size: 0;
+    background-image: url(../img/right.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.active-main-slider .owl-nav div:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent
+}
+
+
+/*animate*/
+
+.animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
+}
+
+.animate-out.sub-title,
+.animate-out.main-title,
+.animate-out.main-paraggrap,
+.animate-out.welcome-button {
+    -webkit-animation-delay: 0ms;
+    animation-delay: 0ms;
+}
+
+.animated.sub-title {
+    animation-duration: 2s;
+    animation-delay: 1s
+}
+
+.animated.main-title {
+    animation-duration: 2s;
+}
+
+.animated.welcome-button {
+    animation-duration: 2s;
+    animation-delay: 1.2s
+}
+
+.btn {
+    height: 50px;
+    padding: 0;
+    line-height: 47px;
+    color: #000d33;
+}
+
+a.btn.btn-default.button-primary {
+    background: #ffb400;
+    border: 1px solid #ffb400;
+}
+
+a.button-secondary.btn.btn-default {
+    background: #ffb400;
+    border: 1px solid #ffb400;
+}

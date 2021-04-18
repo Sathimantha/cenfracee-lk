@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% include page_header.html %}
+<!-- start blog section -->
+<section class="blog-list-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="single-blog blog-details-page list-blog-item">
+                    <div class="blog-lrg-thumb">
+                         <img src="{{page.image}}" alt="{{page.title}}">
+                        <div class="blog-list-date">
+                            <div class="date">
+                                <h4>{{page.date | date: "%d"}} <span>{{page.date | date: "%b"}}</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        {{page.content}}
+                    </div>
+                    <div class="post-share-link">
+                        <div class="tag posttag">
+                            <strong> tags: </strong>
+                            {{page | tags | remove: ","}}
+                        </div>
+                        {% include social_share.html %}
+                    </div>
+                    <div class="author-details">
+                        <div class="author-img">
+                            <img src="{{site.data.authors[page.author].image}}" alt="theimran.com">
+                        </div>
+                         <div class="about-author">
+                            <h4>{{site.data.authors[page.author].name}}</h4>
+                            <p>{{site.data.authors[page.author].bio}}</p>
+                            <a href="{{site.data.authors[page.author].facebook}}" class="fa fa-facebook"></a>
+                            <a href="{{site.data.authors[page.author].twitter}}" class="fa fa-twitter"></a>
+                            <a href="{{site.data.authors[page.author].linkedin}}" class="fa fa-linkedin"></a>
+                            <a href="{{site.data.authors[page.author].instagram}}" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+
+                    <div class="comment-form-area">
+                        {% include disqus_comments.html %}
+                    </div>   
+                </div>
+            </div>
+            <div class="col-md-4">
+              {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of blog section -->
+{% include brand_slider.html %}

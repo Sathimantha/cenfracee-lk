@@ -1,0 +1,48 @@
+---
+layout: default
+title: Blog
+pagination: 
+  enabled: true
+permalink: "/pages/blog/"
+---
+
+{% include page_header.html %}
+<!-- start blog section -->
+<section class="blog-list-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                {% for blog in paginator.posts %}
+                <div class="single-blog list-blog-item">
+                    <div class="blog-lrg-thumb">
+                        <a href="{{blog.url}}"><img src="{{blog.image}}" alt="{{blog.title}}"></a>
+                        <div class="blog-list-date">
+                            <div class="date">
+                                <h4>{{blog.date | date: "%d"}} <span>{{blog.date | date: "%b"}}</span></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-title">
+                        <a href="{{blog.url}}"><h2>{{blog.title}}</h2></a>
+                            <div class="news-meta">
+                            <a href="#"><span class="fa fa-user"></span>By Fresco</a>
+                            <a href="#"><span class="fa fa-tags"></span>Tags {{blog | tags | replace: ",","|"}}</a>
+                            <a href="{{blog.url}}/#disqus_thread" data-disqus-identifier="{{blog.id}}"><span class="fa fa-comment-o"></span>0 Comments</a>
+                        </div>
+                    </div>
+                    <div class="blog-excerpt">
+                        <p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki...</p>
+                    </div>
+                    <a href="{{blog.url}}" class="read-more">Read More</a>
+                </div>
+                {% endfor %}
+                {% include pagination.html %}
+            </div>
+            <div class="col-md-4">
+             {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of blog section -->
+{% include brand_slider.html %}

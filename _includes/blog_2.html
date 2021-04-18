@@ -1,0 +1,30 @@
+<section class="blog-area blogbg section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="section-title">
+                    <h2>The Blog</h2>
+                    <p>Latest Updated</p>
+                </div>
+            </div>
+        </div>
+        <div class="row blog-slider-active">
+           {% for blog in site.posts %}
+            <div class="col-md-4">
+                <div class="single-blog second-blog">
+                    <div class="blog-title">
+                        <div class="date">
+                            <h4>{{blog.date | date: "%d"}} <span>{{blog.date | date: "%B"}}</span></h4>
+                        </div>
+                        <div class="blog-desc">
+                            <a href="{{blog.url}}"><h3>{{blog.title}}</h3></a>
+                            <p>{{blog.excerpt | strip_html | truncate: 100}}</p>
+                        </div>
+                    </div>
+                    <a href="{{blog.url}}" class="read-more">Read more</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

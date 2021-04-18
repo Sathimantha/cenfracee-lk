@@ -1,0 +1,114 @@
+/*start third header css*/
+
+.third-header {
+    background: #f5f5f5;
+    margin-top: 10px;
+}
+
+.search-form i {
+    line-height: 57px;
+    font-weight: 700;
+    color: #000531;
+    width: 50px;
+    cursor: pointer;
+}
+
+.third-header.menu-area {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.third-header-logo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form .searchbox {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+    opacity: 0;
+    transition: .6s
+}
+.search-form .searchbox.open{
+    opacity: 1;
+}
+.search-form input {
+    width: 170px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid #eee;
+}
+
+
+/*end of third header css*/
+
+section.third-services.section-padding {
+    padding-bottom: 50px;
+}
+
+.single-services.third-services .icon {
+    display: inline-block;
+    float: none;
+    margin-right: 0
+}
+
+.single-services.third-services .content {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.single-services.third-services {
+    text-align: center;
+}
+
+
+/*start counter section*/
+
+.single-counter.third-counter .icon {
+    float: none;
+    margin-right: 0;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.single-counter.third-counter .content {
+    padding-left: 0;
+}
+
+.single-counter.third-counter {
+    text-align: center;
+}
+
+.single-counter.third-counter .content h4 {
+    font-size: 40px;
+    color: #fff
+}
+
+
+/*end of counter section*/
+
+.recent-wrok-slider ul.slick-dots {
+    text-align: center;
+    margin-bottom: 0
+}
+
+.recent-wrok-slider ul.slick-dots li button {
+    background: #000531;
+}
+
+.recent-wrok-slider ul.slick-dots li.slick-active button {
+    background: #ffa100;
+}
+
+.margin-top0{
+    margin-top: 0 !important
+}

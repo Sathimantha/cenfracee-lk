@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include page_header.html %}
+<!-- start blog grid section -->
+<section class="blog-area blog-grid-page section-padding">
+    <div class="container">
+        <div class="row">
+            {% for post in page.posts %}
+            <div class="col-md-6 col-lg-4">
+                <div class="single-blog">
+                    <div class="blog-thumb">
+                        <a href="{{post.url}}"> <img src="{{post.image}}" alt="{{post.title}}"></a>
+                    </div>
+                    <div class="blog-title">
+                        <div class="date">
+                            <h4>30 <span>jan</span></h4>
+                        </div>
+                        <div class="blog-desc">
+                            <a href="{{post.url}}"><h3>{{post.title}}</h3></a>
+                            <p>{{post.excerpt | strip_html | truncate: 150}}</p>
+                        </div>
+                    </div>
+                    <a href="{{post.url}}" class="read-more">Read more</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- end of blog grid section -->

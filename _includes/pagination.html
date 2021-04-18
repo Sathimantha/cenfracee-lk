@@ -1,0 +1,21 @@
+
+{% if paginator.total_pages > 1 %}
+<nav aria-label="Page navigation" class="news-list-pagination">
+    <ul class="pagination">
+       {% if paginator.previous_page %}
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" aria-label="Previous">
+                <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+            </a>
+        </li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next">
+                <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+{% endif %}
