@@ -2,17 +2,14 @@
 
 - text: Home
   url: /
-  # submenu:
-  # - text: Home 2
-  #   url: /pages/index-2
-  # - text: Home 3
-  #   url: /pages/index-3
 - text: About
   url: /pages/about
 - text: Blog
   url: /pages/blog/
-- text: Services
-  url: /pages/services
+- text: Blog
+  url: /pages/blog/ 
+- text: Projects
+  url: /pages/projects
 - text: Pages
   url: #
   submenu:
@@ -20,15 +17,13 @@
     url: /pages/services
   - text: About Us
     url: /pages/about
-  - text: 404
-    url: /pages/404
   - text: Blog
     url: /pages/blog
-  - text: Oue Team
+  - text: Our Team
     url: /pages/team
   - text: Project
     url: /pages/projects
   - text: Testimonials
     url: /pages/testimonial
-- text: Contact
+- text: Contact Us
   url: /pages/contact
