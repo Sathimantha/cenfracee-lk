@@ -10,20 +10,20 @@
   url: /pages/blog/ 
 - text: Projects
   url: /pages/projects
-- text: Pages
-  url: #
-  submenu:
-  - text: Services
-    url: /pages/services
-  - text: About Us
-    url: /pages/about
-  - text: Blog
-    url: /pages/blog
-  - text: Our Team
-    url: /pages/team
-  - text: Project
-    url: /pages/projects
-  - text: Testimonials
-    url: /pages/testimonial
+#- text: Pages
+#  url: #
+#  submenu:
+#  - text: Services
+#    url: /pages/services
+#  - text: About Us
+#    url: /pages/about
+#  - text: Blog
+#    url: /pages/blog
+#  - text: Our Team
+#    url: /pages/team
+#  - text: Project
+#    url: /pages/projects
+#  - text: Testimonials
+#    url: /pages/testimonial
 - text: Contact Us
   url: /pages/contact
