@@ -6,8 +6,6 @@
   url: /pages/about
 - text: Blog
   url: /pages/blog/
-- text: Blog
-  url: /pages/blog/ 
 - text: Projects
   url: /pages/projects
 #- text: Pages
