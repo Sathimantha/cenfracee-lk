@@ -3,13 +3,13 @@ email: "info@cenfracee.lk"
 description: >- # this means to ignore newlines until "baseurl:"
  Cenfracee - The Efficient Frontier in Private Equity
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com or https://construction-jk.netlify.com
-facebook_url: https://www.facebook.com/jekyll
+url: "https://cenfracee.lk/" # the base hostname & protocol for your site, e.g. http://example.com or https://construction-jk.netlify.com
+facebook_url: https://www.facebook.com/Cenfracee-Pvt-Ltd-100266912247816/
 twitter_url: https://twitter.com/tryghost
-github_url:  https://github.com/TryGhost/Ghost
-pinterest_url: https://www.pinterest.com/rubel8525
-linkedin_url: https://www.linkenin.com/rubel8525
-instagram_url: https://www.instagram.com/rubel8525
+github_url:  #
+pinterest_url: #
+linkedin_url: https://www.linkedin.com/company/cenfracee-pvt-ltd/
+instagram_url: #
 logo: "/assets/img/logo.png"
 logo_2: "/assets/img/logo-dark.png"
 mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-sitemap
 
 cover_image: "/assets/img/bg/page-title.jpg"
 
