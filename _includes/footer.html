@@ -5,12 +5,12 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="widget">
                         <h2 class="widget-title">ABOUT CENFRACEE (PVT) LTD</h2>
-                        <p>Cenfracee is an incorporated private company with limited liability for the purpose of consolidating an efficient frontier of new generation ventures that leverage leading edge technology and strategic know-how.</p>
+                        <p>Cenfracee is a private equity fund incorporated for the purpose of consolidating an efficient frontier of new generation ventures that leverage leading edge technology and strategic know-how.</p>
                         <div class="newsletter">
                             <h4>Our News Letter</h4>
-                            <form action="#">
-                                <input type="email" placeholder="email">
-                                <button class="fa fa-paper-plane"></button>
+                            <form class="email-form" name="newsletter" method="POST" data-netlify="true">
+                                <input type="email" placeholder="email" name="email" id="email" required>
+                                <button type="submit" class="fa fa-paper-plane"></button>
                             </form>
                         </div>
                     </div>
@@ -19,12 +19,11 @@
                     <div class="widget">
                         <h2 class="widget-title">QUICK LINK</h2>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="{{site.url}}">Home</a></li>
+                            <li><a href="/pages/about">About Us</a></li>
+                            <li><a href="/pages/projects">Portfolio</a></li>
+                            <li><a href="/pages/blog/">Blog</a></li>
+                            <li><a href="/pages/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,8 +46,7 @@
                                 </div>
                                 <div class="addres">
                                     <p>+94 112-64-1339</p>
-                                    <p>+94 71-711-4606</p>
-                                    <p>+94 77-198-5502</p>
+                                    <p>+94 77-653-0353 <small><br>(Official Mobile/Whatsapp)</small></p>
                                 </div>
                             </li>
                             <li>
@@ -65,7 +63,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="widget business-hour">
                         <h2 class="widget-title">BUSINESS HOUR</h2>
-                        <p>Our support available to help you 24 hours a day, seven days a week.</p>
+                        <p>Our support is available to help you 24 hours a day, seven days a week.</p>
                         <ul>
                             <li>Monday-Friday: <span>9am to 5pm</span></li>
                             <li>Saturday: <span>10am to 5pm</span></li>
