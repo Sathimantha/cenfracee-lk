@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Easily choose from thousan of free themes"
-date: 2019-02-09 20:37:13 +0600
+title: "Why Ceylon Cinnamon is so special?"
+date: 2021-05-20 11:18:00 +0530
 image: "/assets/img/blog/8.jpg"
 tags: news live
 categories: [news]
