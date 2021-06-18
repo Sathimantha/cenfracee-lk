@@ -11,4 +11,4 @@ author: "sathimantha"
 
 Download the spices catalog updated for July-September 2021
 
-<a href="publications/cenfracee-spice-catalog-jul-sep-2021.pdf" target="_blank" class="fa fa-download" download> Download Here</a>
+<a href="publications/cenfracee-spice-catalog-jul-sep-21.pdf" target="_blank" class="fa fa-download" download> Download Here</a>
