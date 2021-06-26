@@ -25,13 +25,13 @@ permalink: "/pages/blog/"
                     <div class="blog-title">
                         <a href="{{blog.url}}"><h2>{{blog.title}}</h2></a>
                             <div class="news-meta">
-                            <a href="#"><span class="fa fa-user"></span>By Fresco</a>
+                            <a href="#"><span class="fa fa-user"></span>By {{blog.author}}</a>
                             <a href="#"><span class="fa fa-tags"></span>Tags {{blog | tags | replace: ",","|"}}</a>
                             <a href="{{blog.url}}/#disqus_thread" data-disqus-identifier="{{blog.id}}"><span class="fa fa-comment-o"></span>0 Comments</a>
                         </div>
                     </div>
                     <div class="blog-excerpt">
-                        <p>Monocle ipsum dolor sit amet iconic Nordic craftsmanship, soft power the highest quality Toto efficient Zürich. Asia-Pacific Zürich the best quality of life Melbourne Shinkansen vibrant, St Moritz signature. K-pop pintxos Swiss, essential airport flat white elegant bulletin charming Gaggenau first-class lovely perfect hub Flat white Ettinger business class St Moritz boutique Gaggenau. Asia-Pacific Melbourne international wardrobe Helsinki...</p>
+                        <p>{{blog.excerpt}}</p>
                     </div>
                     <a href="{{blog.url}}" class="read-more">Read More</a>
                 </div>
