@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cenfracee.lk/" # the base hostname & protocol for your site, e.g. http://example.com or https://construction-jk.netlify.com
 facebook_url: https://www.facebook.com/Cenfracee-Pvt-Ltd-100266912247816/
-twitter_url: https://twitter.com/tryghost
+twitter_url: https://twitter.com/cenfracee
 github_url:  #
 pinterest_url: #
 linkedin_url: https://www.linkedin.com/company/cenfracee-pvt-ltd/
