@@ -20,8 +20,12 @@ We specialize in bringing your clothing concept to fully finished and packed pro
 
 * Bring us your concept and we'll turn it into a functional pattern design ready for production using CAD.
 
-* We halp with sourcing raw materials and textile products. We offer a selection of clothing material to suit aesthetics and function as required by the customer.
+* We help with sourcing raw materials and textile products. We offer a selection of clothing material to suit aesthetics and function as required by the customer.
 
 * We have the capability to fulfill every step of the manufacturing process including Cutting, Sewing, Finishing, Washing, Ironing.
 
 * We can design and apply heat press stickers, embroidery patterns or any other element to the garments as per your preference.
+
+### contact us on:
+#### info@cenfracee.com 
+#### +94 77 653 0353 
